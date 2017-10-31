@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e870c914-09c7-4c1e-b959-7cccfad258b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BusinessEmployee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SoftwareEngineer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TechnicalEmployee.java" afterPath="$PROJECT_DIR$/src/TechnicalEmployee.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,21 +44,23 @@
       <file leaf-file-name="TechnicalEmployee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TechnicalEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#206#207#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessEmployee.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BusinessEmployee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BusinessEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -69,6 +72,23 @@
                 <element signature="e#233#234#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftwareEngineer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SoftwareEngineer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +115,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Employee.java" />
-        <option value="$PROJECT_DIR$/src/TechnicalEmployee.java" />
         <option value="$PROJECT_DIR$/src/BusinessEmployee.java" />
+        <option value="$PROJECT_DIR$/src/TechnicalEmployee.java" />
+        <option value="$PROJECT_DIR$/src/SoftwareEngineer.java" />
       </list>
     </option>
   </component>
@@ -263,7 +284,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -320,21 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TechnicalEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BusinessEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -346,6 +352,38 @@
             <element signature="e#233#234#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TechnicalEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SoftwareEngineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
           </folding>
         </state>
       </provider>

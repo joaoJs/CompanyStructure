@@ -11,6 +11,16 @@ public class TechnicalEmployee extends Employee{
         this.checkins++;
     }
 
+    public void setCheckins(int c) {
+        if (c == 0) {
+            checkins = c;
+        }
+    }
+
+    public int getCheckins() {
+        return checkins;
+    }
+
     public String employeeStatus() {
         return super.toString() + " " + checkins;
     }
