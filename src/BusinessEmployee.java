@@ -9,6 +9,10 @@ public class BusinessEmployee extends Employee {
         return bonusBudget;
     }
 
+    public void setBonusBudget(double b) {
+        this.bonusBudget = b;
+    }
+
     public String employeeStatus() {
         return super.toString() + " " + bonusBudget;
     }
