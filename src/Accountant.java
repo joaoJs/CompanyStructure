@@ -26,4 +26,13 @@ public class Accountant extends BusinessEmployee{
     public String employeeStatus() {
         return super.employeeStatus() + " " + teamSupporting;
     }
+
+    //@Override
+    public double getBaseSalary() {
+        return super.getBaseSalary();
+    }
+
+//    public void setBonusBudget(double b) {
+//        super.setBonusBudget(b);
+//    }
 }

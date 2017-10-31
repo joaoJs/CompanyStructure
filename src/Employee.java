@@ -14,12 +14,20 @@ public class Employee {
         return this.baseSalary;
     }
 
+    public void setBaseSalary(double b) {
+        this.baseSalary = b;
+    }
+
     public String getName() {
         return this.name;
     }
 
     public int getEmployeeID() {
         return this.id;
+    }
+
+    public void setManager(Employee e) {
+        this.manager = e;
     }
 
     public Employee getManager() {

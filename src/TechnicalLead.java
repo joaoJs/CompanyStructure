@@ -16,6 +16,7 @@ public class TechnicalLead extends TechnicalEmployee{
     public boolean addReport(SoftwareEngineer e) {
         if (hasHeadCount()) {
             this.reports.add(e);
+            e.setManager(this);
             return true;
         } else {
             return false;

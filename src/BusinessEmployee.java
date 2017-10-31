@@ -17,4 +17,8 @@ public class BusinessEmployee extends Employee {
         return super.toString() + " " + bonusBudget;
     }
 
+    public double getBaseSalary() {
+        return super.getBaseSalary();
+    }
+
 }
