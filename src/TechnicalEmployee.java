@@ -21,6 +21,10 @@ public class TechnicalEmployee extends Employee{
         return checkins;
     }
 
+    public double getBaseSalary() {
+        return super.getBaseSalary();
+    }
+
     public String employeeStatus() {
         return super.toString() + " " + checkins;
     }

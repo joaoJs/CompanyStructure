@@ -27,4 +27,9 @@ public class SoftwareEngineer extends TechnicalEmployee{
             return false;
         }
     }
+
+    public String employeeStatus() {
+        return super.employeeStatus();
+    }
+
 }
