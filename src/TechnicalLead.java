@@ -39,6 +39,7 @@ public class TechnicalLead extends TechnicalEmployee{
         return false;
     }
 
+
     public String getTeamStatus() {
         String s = "";
         if (this.reports.size() == 0) {

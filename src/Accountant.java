@@ -1,3 +1,4 @@
+import java.util.*;
 public class Accountant extends BusinessEmployee{
     private TechnicalLead teamSupporting = null;
 
@@ -12,7 +13,10 @@ public class Accountant extends BusinessEmployee{
 
     public void supportTeam(TechnicalLead lead) {
         this.teamSupporting = lead;
-        super.setBonusBudget(75000);
+        ArrayList<SoftwareEngineer> reports = lead.getReports();
+        int n = reports.size();
+        double budget = n * 75000 * 1.1;
+        super.setBonusBudget(budget);
     }
 
     public boolean approveBonus(double bonus) {
