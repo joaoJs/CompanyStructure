@@ -1,6 +1,7 @@
 public class Employee {
     private String name;
     private double baseSalary;
+    private int uniqueId = 0;
     private static int id = 0;
     private Employee manager;
 
@@ -8,6 +9,7 @@ public class Employee {
         this.name = name;
         this.baseSalary = baseSalary;
         id++;
+        this.uniqueId = id;
     }
 
     public double getBaseSalary() {
@@ -21,6 +23,8 @@ public class Employee {
     public String getName() {
         return this.name;
     }
+
+
 
     public int getEmployeeID() {
         return this.id;
@@ -39,7 +43,7 @@ public class Employee {
     }
 
     public String toString() {
-        return this.id + " " + name;
+        return uniqueId + " " + name;
     }
 
     public String employeeStatus() {

@@ -24,7 +24,7 @@ public class Accountant extends BusinessEmployee{
     }
 
     public String employeeStatus() {
-        return super.employeeStatus() + " " + teamSupporting;
+        return super.employeeStatus() + " and is supporting " + teamSupporting;
     }
 
     //@Override

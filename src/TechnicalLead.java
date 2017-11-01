@@ -6,7 +6,7 @@ public class TechnicalLead extends TechnicalEmployee{
 
     public TechnicalLead(String name) {
         super(name);
-        this.baseSalary = super.getBaseSalary() * 1.3;
+        baseSalary = super.getBaseSalary() * 1.3;
     }
 
     public boolean hasHeadCount() {

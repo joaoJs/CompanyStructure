@@ -16,8 +16,10 @@ public class BusinessLead extends Accountant{
     }
 
     public boolean addReport(Accountant e, TechnicalLead supportTeam) {
+        System.out.println(e.getBaseSalary());
         if (hasHeadCount()) {
             reports.add(e);
+            e.setManager(this);
             this.bonusBudget += e.getBaseSalary() * 1.1;
             e.supportTeam(supportTeam);
             return true;
@@ -49,6 +51,19 @@ public class BusinessLead extends Accountant{
             }
         }
         return false;
+    }
+
+    public String getTeamStatus() {
+        String s = "";
+        if (this.reports.size() == 0) {
+            s = "and no direct reports yet";
+        } else {
+            s += "and is managing:\n";
+            for (int i = 0; i < reports.size(); i++) {
+                s += reports.get(i).employeeStatus() + "\n";
+            }
+        }
+        return super.employeeStatus() + s;
     }
 
 

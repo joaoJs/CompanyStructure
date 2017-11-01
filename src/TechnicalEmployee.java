@@ -26,7 +26,7 @@ public class TechnicalEmployee extends Employee{
     }
 
     public String employeeStatus() {
-        return super.toString() + " " + checkins;
+        return super.toString() + " has " + checkins + " successful check ins ";
     }
 
 }
